@@ -2,10 +2,6 @@ var map = L.map('map').setView([44.0000, -100.0000], 5);
 
 var Thunderforest_Transport = L.tileLayer('http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>, &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
-});
-
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png', {
-    maxZoom: 18
 }).addTo(map);
 
 var willoughby = L.marker([40.694491, -73.941721]).addTo(map);
