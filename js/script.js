@@ -7,7 +7,7 @@ var Thunderforest_Transport = L.tileLayer('http://{s}.tile.thunderforest.com/tra
 var myIcon = L.icon({
     iconUrl: 'http://www.clipartbest.com/cliparts/9c4/e5k/9c4e5kqMi.png',
     iconSize: [38, 38],
-    iconAnchor: [22, 22],
+    iconAnchor: [19, 19],
     popupAnchor: [-3, -16]
 });
 
@@ -20,17 +20,17 @@ flatbush.bindPopup("Flatbush");
 var tibbetts = L.marker([45.500620, -122.646971], {icon: myIcon}).addTo(map);
 flatbush.bindPopup("Tibbetts");
 
-var ODB = L.marker([45.478173, -122.630607], {icon: myIcon}).addTo(map);
+var ODB = L.marker([45.480800, -122.632205], {icon: myIcon}).addTo(map);
 ODB.bindPopup("Olde Dorm Block Kanye Westport");
 
-var chittick = L.marker([45.481197, -122.635993], {icon: myIcon}).addTo(map);
+var chittick = L.marker([45.482260, -122.631148], {icon: myIcon}).addTo(map);
 chittick.bindPopup("Chittick");
 
-var macNaughton = L.marker([45.479389, -122.632230], {icon: myIcon}).addTo(map);
+var macNaughton = L.marker([45.479924, -122.633138], {icon: myIcon}).addTo(map);
 macNaughton.bindPopup("MacNaughton II");
 
-var sally = L.marker([45.477208, -122.624054], {icon: myIcon}).addTo(map);
+var sally = L.marker([45.477554, -122.622356], {icon: myIcon}).addTo(map);
 sally.bindPopup("Sally's House");
 
-var OFCS = L.marker([45.492462, -122.630390], {icon: myIcon}).addTo(map);
+var OFCS = L.marker([45.493803, -122.630472], {icon: myIcon}).addTo(map);
 OFCS.bindPopup("OFCS House");
